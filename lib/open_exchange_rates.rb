@@ -22,4 +22,5 @@ end
 # Default configuration
 OpenExchangeRates.configure do |config|
   config.app_id = ENV['OPEN_EXCHANGE_RATES_APP_ID']
+  config.show_alternative = false
 end
